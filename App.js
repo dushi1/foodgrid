@@ -1,17 +1,19 @@
-import React, { useEffect } from 'react';
-import { View, Text } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SplashScreen from 'react-native-splash-screen';
+import Auth from './App/containers/Auth';
 
+const Stack = createNativeStackNavigator();
 
-const App = () => {
-  useEffect(() => {
+export default function App() {
+  const onReady = () => {
     SplashScreen.hide();
-  }, []);
+  }
   return (
-    <View>
-      <Text>Appp</Text>
-    </View>
+    <NavigationContainer onReady={onReady}>
+      <Stack.Navigator>
+        <Stack.Screen name='Auth' component={Auth} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
-
-export default App;
