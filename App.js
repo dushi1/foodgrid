@@ -1,9 +1,8 @@
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SplashScreen from 'react-native-splash-screen';
-import Auth from './App/containers/Auth';
+import AppNavigator from './App/containers/root/AppNavigator';
 
-const Stack = createNativeStackNavigator();
+
 
 export default function App() {
   const onReady = () => {
@@ -11,9 +10,7 @@ export default function App() {
   }
   return (
     <NavigationContainer onReady={onReady}>
-      <Stack.Navigator>
-        <Stack.Screen name='Auth' component={Auth} />
-      </Stack.Navigator>
+      <AppNavigator />
     </NavigationContainer>
   );
 }

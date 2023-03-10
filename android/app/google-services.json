@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "79092780507",
+    "project_id": "cartly-4f974",
+    "storage_bucket": "cartly-4f974.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79092780507:android:ab63ee45385d220f66abfe",
+        "android_client_info": {
+          "package_name": "com.foodgrid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79092780507-0dvsk877tmpk0ja29ib3k0kej0tcm2jl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodgrid",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "79092780507-1371nsdd5c8qf9qev32n9ps7o6anua1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc3B_iVRDiyETpd9TGKG-lpTgjNJ7a5rQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79092780507-1371nsdd5c8qf9qev32n9ps7o6anua1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
